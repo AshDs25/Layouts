@@ -1,0 +1,33 @@
+.navbar{
+    grid-area: navbar;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+    border-bottom: 1px solid var(--border-color);
+    transition: color 0.3s linear, background-color 0.3s linear;
+}
+
+.navbar{
+    .logo{
+        font-weight: 600;
+        flex-shrink: 0;
+    }
+}
+.navbar .nav-list ul{
+    display: flex;
+    list-style: none;
+    gap:0.8rem;
+}
+#toggle-button{
+    display: none;
+}
+@media only screen and (max-width:1024px) {
+     #toggle-button{
+        display: inline;
+        cursor: pointer;
+        margin-right:1rem;
+   }
+}

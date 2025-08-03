@@ -1,0 +1,289 @@
+// Text Utilities SCSS
+// A comprehensive utility file for text styling
+
+// Font Sizes
+.text-xs { font-size: 0.75rem; }     // 12px
+.text-sm { font-size: 0.875rem; }    // 14px
+.text-base { font-size: 1rem; }      // 16px
+.text-lg { font-size: 1.125rem; }    // 18px
+.text-xl { font-size: 1.25rem; }     // 20px
+.text-2xl { font-size: 1.5rem; }     // 24px
+.text-3xl { font-size: 1.875rem; }   // 30px
+.text-4xl { font-size: 2.25rem; }    // 36px
+.text-5xl { font-size: 3rem; }       // 48px
+.text-6xl { font-size: 3.75rem; }    // 60px
+.text-7xl { font-size: 4.5rem; }     // 72px
+.text-8xl { font-size: 6rem; }       // 96px
+.text-9xl { font-size: 8rem; }       // 128px
+
+// Font Weights
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+// Text Alignment
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+// Text Transform
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.normal-case { text-transform: none; }
+
+// Text Decoration
+.underline { text-decoration-line: underline; }
+.overline { text-decoration-line: overline; }
+.line-through { text-decoration-line: line-through; }
+.no-underline { text-decoration-line: none; }
+
+// Text Decoration Style
+.decoration-solid { text-decoration-style: solid; }
+.decoration-double { text-decoration-style: double; }
+.decoration-dotted { text-decoration-style: dotted; }
+.decoration-dashed { text-decoration-style: dashed; }
+.decoration-wavy { text-decoration-style: wavy; }
+
+// Text Decoration Thickness
+.decoration-auto { text-decoration-thickness: auto; }
+.decoration-from-font { text-decoration-thickness: from-font; }
+.decoration-0 { text-decoration-thickness: 0px; }
+.decoration-1 { text-decoration-thickness: 1px; }
+.decoration-2 { text-decoration-thickness: 2px; }
+.decoration-4 { text-decoration-thickness: 4px; }
+.decoration-8 { text-decoration-thickness: 8px; }
+
+// Line Height
+.leading-3 { line-height: 0.75rem; }    // 12px
+.leading-4 { line-height: 1rem; }       // 16px
+.leading-5 { line-height: 1.25rem; }    // 20px
+.leading-6 { line-height: 1.5rem; }     // 24px
+.leading-7 { line-height: 1.75rem; }    // 28px
+.leading-8 { line-height: 2rem; }       // 32px
+.leading-9 { line-height: 2.25rem; }    // 36px
+.leading-10 { line-height: 2.5rem; }    // 40px
+.leading-none { line-height: 1; }
+.leading-tight { line-height: 1.25; }
+.leading-snug { line-height: 1.375; }
+.leading-normal { line-height: 1.5; }
+.leading-relaxed { line-height: 1.625; }
+.leading-loose { line-height: 2; }
+
+// Letter Spacing
+.tracking-tighter { letter-spacing: -0.05em; }
+.tracking-tight { letter-spacing: -0.025em; }
+.tracking-normal { letter-spacing: 0em; }
+.tracking-wide { letter-spacing: 0.025em; }
+.tracking-wider { letter-spacing: 0.05em; }
+.tracking-widest { letter-spacing: 0.1em; }
+
+// Text Overflow
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellipsis { text-overflow: ellipsis; }
+.text-clip { text-overflow: clip; }
+
+// White Space
+.whitespace-normal { white-space: normal; }
+.whitespace-nowrap { white-space: nowrap; }
+.whitespace-pre { white-space: pre; }
+.whitespace-pre-line { white-space: pre-line; }
+.whitespace-pre-wrap { white-space: pre-wrap; }
+.whitespace-break-spaces { white-space: break-spaces; }
+
+// Word Break
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words { overflow-wrap: break-word; }
+.break-all { word-break: break-all; }
+.break-keep { word-break: keep-all; }
+
+// Hyphens
+.hyphens-none { hyphens: none; }
+.hyphens-manual { hyphens: manual; }
+.hyphens-auto { hyphens: auto; }
+
+// Text Indent
+.indent-0 { text-indent: 0px; }
+.indent-px { text-indent: 1px; }
+.indent-0_5 { text-indent: 0.125rem; }  // 2px
+.indent-1 { text-indent: 0.25rem; }     // 4px
+.indent-1_5 { text-indent: 0.375rem; }  // 6px
+.indent-2 { text-indent: 0.5rem; }      // 8px
+.indent-2_5 { text-indent: 0.625rem; }  // 10px
+.indent-3 { text-indent: 0.75rem; }     // 12px
+.indent-3_5 { text-indent: 0.875rem; }  // 14px
+.indent-4 { text-indent: 1rem; }        // 16px
+.indent-5 { text-indent: 1.25rem; }     // 20px
+.indent-6 { text-indent: 1.5rem; }      // 24px
+.indent-7 { text-indent: 1.75rem; }     // 28px
+.indent-8 { text-indent: 2rem; }        // 32px
+
+// Vertical Alignment
+.align-baseline { vertical-align: baseline; }
+.align-top { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+.align-text-top { vertical-align: text-top; }
+.align-text-bottom { vertical-align: text-bottom; }
+.align-sub { vertical-align: sub; }
+.align-super { vertical-align: super; }
+
+// Font Style
+.italic { font-style: italic; }
+.not-italic { font-style: normal; }
+
+// Font Variant Numeric
+.normal-nums { font-variant-numeric: normal; }
+.ordinal { font-variant-numeric: ordinal; }
+.slashed-zero { font-variant-numeric: slashed-zero; }
+.lining-nums { font-variant-numeric: lining-nums; }
+.oldstyle-nums { font-variant-numeric: oldstyle-nums; }
+.proportional-nums { font-variant-numeric: proportional-nums; }
+.tabular-nums { font-variant-numeric: tabular-nums; }
+.diagonal-fractions { font-variant-numeric: diagonal-fractions; }
+.stacked-fractions { font-variant-numeric: stacked-fractions; }
+
+// Text Colors (Basic set - extend as needed)
+.text-transparent { color: transparent; }
+.text-current { color: currentColor; }
+.text-black { color: rgb(0 0 0); }
+.text-white { color: rgb(255 255 255); }
+
+// Text selection
+.select-none { user-select: none; }
+.select-text { user-select: text; }
+.select-all { user-select: all; }
+.select-auto { user-select: auto; }
+
+// Font smoothing
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+// Multi-line text truncation utilities
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+   line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
+.line-clamp-5 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+}
+
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+}
+
+.line-clamp-none {
+  overflow: visible;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-line-clamp: none;
+  line-clamp: none;
+}
+
+// Responsive font sizes (mobile-first approach)
+@media (min-width: 640px) {
+  .sm\:text-xs { font-size: 0.75rem; }
+  .sm\:text-sm { font-size: 0.875rem; }
+  .sm\:text-base { font-size: 1rem; }
+  .sm\:text-lg { font-size: 1.125rem; }
+  .sm\:text-xl { font-size: 1.25rem; }
+  .sm\:text-2xl { font-size: 1.5rem; }
+  .sm\:text-3xl { font-size: 1.875rem; }
+  .sm\:text-4xl { font-size: 2.25rem; }
+  .sm\:text-5xl { font-size: 3rem; }
+}
+
+@media (min-width: 768px) {
+  .md\:text-xs { font-size: 0.75rem; }
+  .md\:text-sm { font-size: 0.875rem; }
+  .md\:text-base { font-size: 1rem; }
+  .md\:text-lg { font-size: 1.125rem; }
+  .md\:text-xl { font-size: 1.25rem; }
+  .md\:text-2xl { font-size: 1.5rem; }
+  .md\:text-3xl { font-size: 1.875rem; }
+  .md\:text-4xl { font-size: 2.25rem; }
+  .md\:text-5xl { font-size: 3rem; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-xs { font-size: 0.75rem; }
+  .lg\:text-sm { font-size: 0.875rem; }
+  .lg\:text-base { font-size: 1rem; }
+  .lg\:text-lg { font-size: 1.125rem; }
+  .lg\:text-xl { font-size: 1.25rem; }
+  .lg\:text-2xl { font-size: 1.5rem; }
+  .lg\:text-3xl { font-size: 1.875rem; }
+  .lg\:text-4xl { font-size: 2.25rem; }
+  .lg\:text-5xl { font-size: 3rem; }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-xs { font-size: 0.75rem; }
+  .xl\:text-sm { font-size: 0.875rem; }
+  .xl\:text-base { font-size: 1rem; }
+  .xl\:text-lg { font-size: 1.125rem; }
+  .xl\:text-xl { font-size: 1.25rem; }
+  .xl\:text-2xl { font-size: 1.5rem; }
+  .xl\:text-3xl { font-size: 1.875rem; }
+  .xl\:text-4xl { font-size: 2.25rem; }
+  .xl\:text-5xl { font-size: 3rem; }
+}

@@ -1,0 +1,27 @@
+.content-wrapper{
+    display: grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: 260px auto; //sidebar main content
+    grid-template-rows: 60px calc(100vh - 60px); //navbar rest content
+    grid-template-areas: 
+    "navbar navbar"
+    "sidebar body";
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: color 0.3s linear, background-color 0.3s linear,grid-template-columns 0.3s linear;
+
+    // &.mini{
+    //     grid-template-columns: 56px 1fr;
+    // }
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    .content-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: "navbar"
+        "body";
+    }
+}

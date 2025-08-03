@@ -1,0 +1,12 @@
+:root {
+  /* Common Variables */
+  --background-color: #ffffff;  /* Default text color (light theme) */
+  --text-color: #2C2C2C;  /* Default background color (light theme) */
+  --border-color:#DFE0E3;
+}
+
+/* Dark Theme overrides */
+[data-theme="dark"] {
+  --text-color: #D0D0D0;
+  --background-color: #2C2C2C;
+}
