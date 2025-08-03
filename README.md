@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Layouts
 
-## Getting Started
+A collection of responsive layout patterns built using **Next.js** and **SCSS**. This project is intended as a UI sandbox for experimenting with modern layout techniques and reusable components.
 
-First, run the development server:
+---
+
+## ⚙️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [SCSS (Sass)](https://sass-lang.com/)
+- [Node.js](https://nodejs.org/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AshDs25/Layouts.git
+cd Layouts
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+Layouts/
+├── components/          # Reusable UI components
+├── pages/               # Next.js page routes
+├── public/              # Static assets
+├── styles/              # SCSS files
+│   ├── globals.scss
+│   └── layout/*.scss
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Responsive layouts with flexible structure
+- Clean SCSS architecture
+- Modular components for reuse
+- Scalable for additional layout patterns
+- Built with Next.js for fast iteration
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Useful Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` – Run development server
+- `npm run build` – Build for production
+- `npm run start` – Start production server
+
+---
+
+## 🙋‍♂️ Author
+
+**AshDs25**  
+📍 [github.com/AshDs25](https://github.com/AshDs25)
